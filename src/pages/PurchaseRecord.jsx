@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Index = () => {
+const PurchaseRecord = () => {
   return (
     <div className="h-screen w-screen flex items-center justify-center">
       <div>
-        <h1 className="text-3xl text-center">Welcome to Our Ecommerce Site</h1>
+        <h1 className="text-3xl text-center">Purchase Record</h1>
         <p className="text-center">
-          Discover our products and learn more about us.
+          View all purchase records.
         </p>
       </div>
     </div>
   );
 };
 
-export default Index;
+export default PurchaseRecord;
